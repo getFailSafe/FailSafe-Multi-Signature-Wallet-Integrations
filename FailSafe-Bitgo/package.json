@@ -1,0 +1,25 @@
+{
+  "name": "failsafe_bitgo",
+  "version": "1.0.0",
+  "description": "Scripts to onboard a BitGo wallet on FailSafe platform, activate FailSafe protection on the assets held by a BitGo wallet and withdraw assets from FailSafe Recovery Vault to a BitGo wallet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "BitGo-FailSafe"
+  ],
+  "author": "Team FailSafe",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@bitgo/account-lib": "^22.0.2",
+    "@bitgo/sdk-api": "^1.43.2",
+    "@bitgo/sdk-coin-polygon": "^19.0.2",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5",
+    "ethereumjs-util": "^7.0.4",
+    "ethers": "^5.7.0",
+    "web3": "1.10.0"
+  }
+}
